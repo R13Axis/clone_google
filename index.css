@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    align-items: center;
+    height: 10vh;
+    padding-right: 20px;
+}
+
+main {
+    height: 60vh;
+}
+
+.text-header {
+    color:rgba(0,0,0,.87);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.photo-user {
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+}
+
+
+.logo-section {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#input-search {
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+.buttons-section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+#search {
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+}
+
+#search:hover {
+    border: 1px rgb(182, 180, 180) solid;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#lucky{
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;   
+}
+
+#lucky:hover {
+    border: 1px rgb(182, 180, 180) solid;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footer-container{
+    background-color: #f2f2f2;
+    height: 47px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 20px;
+   padding: 0px 40px;
+}
+
+
+.border {
+    border-bottom: 1px #dadce0 solid;
+}
+
+.text-mx{
+    margin-left: 35px;
+    font-size: 14px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
